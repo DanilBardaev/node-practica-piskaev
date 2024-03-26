@@ -21,42 +21,45 @@ db.get(query, (err, user) => {
   }
 });
 class User {
-  static async create(dataForm, cb) {
-    try {
-      const sql =
-        "INSERT INTO users (name, email, password, age) VALUES (?, ?, ?, ?)";
-      db.run(
-        sql,
-        dataForm.name,
-        dataForm.email,
-        dataForm.password,
-        dataForm.age,
-        cb
-      );
-    } catch (err) {
+  static create(username, password, isAdmin, cb) {
+    db.run('INSERT INTO users (username, password, isAdmin) VALUES (?, ?, ?)', [username, password, isAdmin], function(err) {
       if (err) {
-        logger.error("Ошибка создания пользователя");
-        console.error("Ошибка создания пользователя");
         return cb(err);
       }
-    }
+      
+      cb(null);
+    });
   }
 
-  static findByEmail(email, cb) {
-    db.get("SELECT * FROM users WHERE email = ?", email, cb);
-  }
-
-  static authenticate(dataForm, cb) {
-    User.findByEmail(dataForm.email, (error, user) => {
-      if (error) return cb(error);
-      if (!user) return cb();
-      if (dataForm.password === user.password) {
-        return cb(null, user);
-      } else {
-        return cb();
+  static authenticate(username, password, cb) {
+    db.get('SELECT id, password FROM users WHERE username = ?', [username], function(err, row) {
+      if (err) {
+        return cb(err);
       }
+      
+      if (!row) {
+        return cb(null, false);
+      }
+
+      if (row.password === password) {
+        cb(null, true);
+      } else {
+        cb(null, false);
+      }
+    });
+  }
+
+  static updateAdminStatus(id, isAdmin, cb) {
+    db.run('UPDATE users SET isAdmin = ? WHERE id = ?', [isAdmin, id], function(err) {
+      if (err) {
+        return cb(err);
+      }
+      
+      cb(null);
     });
   }
 }
 
 module.exports = User;
+
+

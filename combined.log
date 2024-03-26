@@ -523,3 +523,868 @@
   level: 'info',
   timestamp: '2024-03-11T18:12:07.836Z'
 }
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-12T06:01:58.350Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T06:02:14.838Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T06:08:41.550Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-12T06:21:15.621Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T06:46:40.803Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T06:52:31.349Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T06:52:41.181Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-12T07:09:19.942Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-12T07:09:28.571Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-12T08:18:34.740Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:40.189Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:40.195Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:40.419Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:40.434Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:43.280Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:43.282Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:43.284Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:43.285Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:50.436Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:50.446Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:50.450Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:50.469Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-12T08:42:54.989Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T08:43:01.673Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T08:43:22.980Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T08:43:25.821Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-12T08:45:10.296Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-12T08:45:24.170Z'
+}
+{
+  message: 'Token подготовка :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiMzViYXJkYWV2QGdtYWlsLmNvbSIsImlhdCI6MTcxMDIzMzI0MywiZXhwIjoxNzEwMjM4MjQzfQ._qGSMzYF_cVeomN7sqqt-soAoxFfb0ERy_rZ3NvoQu8',
+  level: 'info',
+  timestamp: '2024-03-12T08:47:23.079Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-12T08:47:41.191Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T08:47:48.582Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T08:47:58.374Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-12T08:48:27.133Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-12T08:48:42.832Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T08:48:49.837Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T08:48:58.453Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T08:49:03.379Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-17T14:10:15.730Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-17T14:10:16.183Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-17T14:10:58.262Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-17T14:10:58.263Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-17T14:10:58.264Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-17T14:10:58.264Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-17T14:11:06.634Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-17T14:11:06.641Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-17T14:11:06.647Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-17T14:11:06.648Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-17T14:11:06.649Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-17T14:11:06.649Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-17T14:11:17.981Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-17T14:11:17.998Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-17T14:11:18.000Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-17T14:11:18.001Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-17T14:11:18.002Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-17T14:11:18.003Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-17T14:11:47.968Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-17T14:12:05.282Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-17T14:12:21.282Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-17T14:13:24.541Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-17T14:14:04.026Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-17T14:14:09.440Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-17T14:14:13.227Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-17T14:14:18.329Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-17T14:15:15.533Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-17T14:15:20.271Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-17T14:15:33.210Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-17T14:15:36.721Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-17T14:16:45.299Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-17T14:16:52.473Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-17T14:17:26.746Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-17T14:17:31.193Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-17T14:18:15.045Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-17T14:18:22.212Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-17T14:18:36.960Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-17T14:19:11.556Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-17T14:19:20.361Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-17T14:19:33.475Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-17T14:19:40.818Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-17T14:21:26.287Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-17T14:21:35.637Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-17T14:21:45.016Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-17T14:21:52.621Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-17T14:22:01.307Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-17T14:22:07.375Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-17T14:22:21.308Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-17T14:22:23.081Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-17T14:22:24.628Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-17T14:23:25.866Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-17T14:23:52.739Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-17T14:23:52.815Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-17T14:24:27.087Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-17T14:24:29.797Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-17T14:24:38.471Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-17T14:24:48.460Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-17T14:24:50.475Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-18T06:22:13.102Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-18T06:25:43.212Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-18T06:59:48.494Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-18T07:02:53.006Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-18T07:08:48.148Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-18T07:10:38.700Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-18T07:19:33.206Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-18T07:20:18.878Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-18T07:21:48.391Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-18T07:23:00.708Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-18T07:26:17.052Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-18T07:26:32.876Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-18T07:30:25.596Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T07:30:34.401Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-18T07:32:22.151Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T07:32:32.979Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-18T07:33:27.769Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T07:33:37.037Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-18T07:37:17.769Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T07:37:19.950Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-18T07:37:55.688Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-18T07:38:35.792Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-18T07:40:28.263Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T07:40:38.169Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-18T07:47:04.008Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T07:51:01.531Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-18T07:55:28.626Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-18T07:55:32.222Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T07:55:38.862Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T07:55:43.214Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T07:55:46.802Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T07:59:24.331Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T07:59:40.521Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T07:59:56.538Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:59:59.619Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:00:03.430Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-18T08:00:30.350Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:00:34.901Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:00:36.840Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:00:49.818Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-18T08:00:58.067Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-18T08:01:43.545Z'
+}
+{
+  message: 'Зашли на страницу edit post',
+  level: 'info',
+  timestamp: '2024-03-18T08:02:11.869Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:02:19.933Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-18T08:02:23.116Z'
+}
+{
+  message: 'Зашли на страницу edit post',
+  level: 'info',
+  timestamp: '2024-03-18T08:02:25.851Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:03:05.603Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:03:11.111Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:03:13.992Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-18T08:25:26.130Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-18T08:27:22.316Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-18T08:27:53.841Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:28:47.388Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:28:49.873Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:29:56.132Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-18T08:30:00.230Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:30:08.329Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:30:12.009Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:30:17.574Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:30:19.612Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:30:22.605Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:31:32.091Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:32:33.906Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:32:38.996Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:34:18.844Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:34:53.564Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:35:48.195Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:35:52.595Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:36:05.713Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-18T08:36:10.294Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:36:23.292Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:36:28.278Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:36:56.672Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-18T08:37:01.274Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-26T05:55:07.661Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-26T05:55:24.958Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-26T05:58:36.266Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-26T05:58:38.519Z'
+}
