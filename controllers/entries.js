@@ -28,17 +28,22 @@ exports.delete = (req, res, next) => {
 };
 
 exports.list = (req, res, next) => {
-  Entry.selectAll((err, entries) => {
+  try{
+  const entries = Entry.findAll();
+  (err, entries) => {
     if (err) return next(err);
     res.render("entries", { title: "Entries", entries: entries, link: link });
-  });
+  }
+  }catch (err) {
+    return next(err);
+  }
 };
 
 exports.form = (req, res, next) => {
   res.render("post", { title: "Post" });
 };
 
-exports.submit = (req, res, next) => {
+exports.submit = async(req, res, next) => {
   try {
     const username = req.user ? req.user.name : null;
     const data = req.body.entry;
@@ -52,7 +57,7 @@ exports.submit = (req, res, next) => {
       content: data.content,
       imagePath: imagePath,
     };
-    Entry.create(entry);
+   await Entry.create(entry);
     res.redirect("/");
     // console.log(entry.imagePath);
   } catch (err) {

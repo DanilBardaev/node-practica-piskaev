@@ -18,6 +18,7 @@ const passportFunctionYandex = require("./middleware/passport_yandex");
 const passportFunctionGoogle = require("./middleware/passport_go");
 const passportFunctionGitHub = require("./middleware/passport_github");
 const passportFunctionVkontakte = require("./middleware/passport_vkontakte");
+const {sequelize} = require("./models/db");
 // const morgan = require("morgan");
 const winston = require("winston");
 const app = express();
@@ -67,7 +68,6 @@ app.use(
     )
   )
 );
-
 app.use(favicon(__dirname + "/public/img/logo.png"));
 app.use(userSession);
 app.use(message);
@@ -79,9 +79,11 @@ app.get("/", (req, res) => {
 
 app.use(adminRoutes);
 
-app.listen(port, () => {
-  logger.info(`Сервер запущен на порту ` + port);
-  console.log(`Сервер запущен на порту ` + port);
+app.listen(port, async () => {
+  await sequelize.sync({force: true})
+  logger.info(`Сервер запущен на порту ` + port + " База данных синхронизирована");
+  console.log(`Сервер запущен на порту ` + port + " База данных синхронизирована");
+
 });
 
 if (app.get("env") != "development") {

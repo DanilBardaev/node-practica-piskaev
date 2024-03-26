@@ -1,18 +1,35 @@
-const User = require("../models/user");
+const User = require("../models/db");
 const validate = require("../middleware/validate");
 const messanger = "https://kappa.lol/iSONv";
 const logger = require("../logger/index");
 const link = "https://kappa.lol/VMimi";
 const jwt = require("jsonwebtoken");
-
+const bcrypt = require("bcrypt")
 require("dotenv").config();
 
 exports.form = (req, res) => {
   logger.info("Пользователь зашёл на страницу логина");
   res.render("loginForm", { title: "Login", messanger: messanger, link: link });
 };
+
+
+async function authenticate(dataForm, cb) {
+  try{
+  const user = await User.findOne({where: {email: dataForm.email}})
+    if (err) return cb(err);
+    if(!user) return cb();
+    const result = bcrypt.compare(dataForm.password,user.password)
+        if (result)return cb(null,user);
+       return cb()
+       } catch (err) {
+    return cb(err)
+   }
+  }
+
+
+
 exports.submit = (req, res, next) => {
-  User.authentificate(req.body.loginForm, (error, data) => {
+  authenticate(req.body.loginForm, (error, data) => {
     if (error) {
       logger.error(`Произошла ошибка: ${error}`);
       return next(error);
