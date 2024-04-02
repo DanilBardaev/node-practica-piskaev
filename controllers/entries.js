@@ -1,11 +1,12 @@
 const logger = require("../logger/index");
-const Entry = require("../models/entry");
+const { Entry } = require("../models/db");
 const multer = require("multer");
 const link = "https://kappa.lol/VMimi";
 const messanger = "https://kappa.lol/iSONv";
 const path = require("path");
 const express = require("express");
 const router = express.Router();
+
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, "uploads/");
@@ -27,14 +28,11 @@ exports.delete = (req, res, next) => {
   });
 };
 
-exports.list = (req, res, next) => {
-  try{
-  const entries = Entry.findAll();
-  (err, entries) => {
-    if (err) return next(err);
+exports.list = async (req, res, next) => {
+  try {
+    const entries = await Entry.findAll();
     res.render("entries", { title: "Entries", entries: entries, link: link });
-  }
-  }catch (err) {
+  } catch (err) {
     return next(err);
   }
 };
@@ -43,7 +41,7 @@ exports.form = (req, res, next) => {
   res.render("post", { title: "Post" });
 };
 
-exports.submit = async(req, res, next) => {
+exports.submit = async (req, res, next) => {
   try {
     const username = req.user ? req.user.name : null;
     const data = req.body.entry;
@@ -57,7 +55,7 @@ exports.submit = async(req, res, next) => {
       content: data.content,
       imagePath: imagePath,
     };
-   await Entry.create(entry);
+    await Entry.create(entry);
     res.redirect("/");
     // console.log(entry.imagePath);
   } catch (err) {
