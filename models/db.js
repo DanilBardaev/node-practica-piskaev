@@ -10,62 +10,58 @@ const sequelize = new Sequelize({
   });
   // ------------ Class Entry ---------------- //
 
- const Entry = sequelize.define("entries", {
+const Entry = sequelize.define("entries", {
     id: {
         type: Sequelize.INTEGER,
         primaryKey: true,
         autoIncrement: true,
-      },
-      username:{
+    },
+    username:{
         type: Sequelize.STRING,
         allowNull: false,
-      },
-      title: {
+    },
+    title: {
         type: Sequelize.STRING,
-       
-      },
-      content: {
-        type: Sequelize.DATE,
+    },
+    content: {
+        type: Sequelize.TEXT,
         allowNull: false,
-      },
-      imagePath: {
+    },
+    imagePath: {
         type: Sequelize.STRING,
-       
-      },
-      timestamp: {
-        type: Sequelize.DATE,
-       
-      },
- })
+    },
+    timestamp: {
+        type: Sequelize.TEXT, // Изменено на DATE
+    },
+});
 
- const User = sequelize.define("users", {
+const User = sequelize.define("users", {
     id: {
-      type: Sequelize.INTEGER,
-      primaryKey: true,
-      autoIncrement: true,
+        type: Sequelize.INTEGER,
+        primaryKey: true,
+        autoIncrement: true,
     },
     name: {
-      type: Sequelize.STRING,
-      allowNull: false,
+        type: Sequelize.STRING,
+        allowNull: false,
     },
     email: {
-      type: Sequelize.STRING,
-      allowNull: false,
+        type: Sequelize.STRING,
+        allowNull: false,
     },
     password: {
-      type: Sequelize.STRING,
-      allowNull: false,
+        type: Sequelize.STRING,
+        allowNull: false,
     },
     age: {
-      type: Sequelize.INTEGER,
-      allowNull: false,
+        type: Sequelize.INTEGER,
+        allowNull: false,
     },
     isAdmin: {
-      type: Sequelize.INTEGER,
-      
+        type: Sequelize.INTEGER,
     },
-  })
+});
 
 module.exports = {
     Entry, User, sequelize
-}
+};
